@@ -43,7 +43,11 @@ INSTALLED_APPS = (
 
     # tests
     'django_nose',
+    'south',
 )
 
 ROOT_URLCONF = 'urls'
 SITE_ID = 1
+
+# Use Nose as our test suite runner
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
