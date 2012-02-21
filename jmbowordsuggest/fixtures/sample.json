@@ -1,0 +1,92 @@
+[
+    {
+        "pk": 1, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Domestic Worker"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Carpenter"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Plumber"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Grass Cutting"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Radio news reader"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Driver"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Call Center Agent"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Waiter"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "jmbowordsuggest.acceptedword", 
+        "fields": {
+            "word": "Marketting and Sales"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "jmbowordsuggest.acceptedwordcategory", 
+        "fields": {
+            "name": "skills", 
+            "words": [
+                1, 
+                2, 
+                3, 
+                4, 
+                5
+            ]
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "jmbowordsuggest.acceptedwordcategory", 
+        "fields": {
+            "name": "jobs", 
+            "words": [
+                6, 
+                7, 
+                8, 
+                9
+            ]
+        }
+    }
+]
