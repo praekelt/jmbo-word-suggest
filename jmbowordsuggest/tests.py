@@ -42,3 +42,19 @@ class SuggestWordsTestCase(TestCase):
         
         words = suggest_words('skills', 'journalist')
         self.assertEqual(words, [])
+
+    def test_searched_exact_word(self):
+        words = suggest_words('skills', 'Plumber')
+        word, rank = words[0]
+        self.assertEqual(word, 'Plumber')
+        self.assertEqual(rank, 1)
+        
+        words = suggest_words('skills', 'plumber')
+        word, rank = words[0]
+        self.assertEqual(word, 'Plumber')
+        self.assertEqual(rank, 1)
+        
+        words = suggest_words('skills', 'Plamber')
+        word, rank = words[0]
+        self.assertEqual(word, 'Plumber')
+        self.assertTrue(rank < 1)
