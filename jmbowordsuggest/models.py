@@ -1,7 +1,7 @@
 from django.db import models
 
 class AcceptedWord(models.Model):
-    word = models.TextField(blank=False, null=False)
+    word = models.TextField(blank=False, null=False, unique=True)
 
     def __unicode__(self):
         return self.word
